@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+.card {
+  background-color: white;
+  border: 1px solid #333;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  margin: 0 0 0.5rem;
+}
+
+.form-group label {
+  font-weight: bold;
+  font-size: 0.8rem;
+  color: #333;
+}
+
+.form-group input {
+  border: 1px solid #333;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  padding: 0.25rem;
+}
+
+.form-group :last-child {
+  margin: 0;
+}
+/*# sourceMappingURL=styles.css.map */
