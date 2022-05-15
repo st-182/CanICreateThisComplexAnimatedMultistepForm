@@ -2,11 +2,23 @@
   box-sizing: border-box;
 }
 
+form {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
 .card {
   background-color: white;
   border: 1px solid #333;
   border-radius: 0.5rem;
   padding: 0.5rem;
+  max-width: 300px;
+  margin: 0 auto;
+  display: none;
+}
+
+.card.active {
+  display: block;
 }
 
 .form-group {
@@ -14,6 +26,12 @@
   flex-direction: column;
   gap: 0.25rem;
   margin: 0 0 0.5rem;
+}
+
+.form-group .step-title {
+  text-align: center;
+  margin: 0 0 1rem 0;
+  font-weight: bold;
 }
 
 .form-group label {

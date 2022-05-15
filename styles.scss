@@ -1,13 +1,21 @@
 * {
   box-sizing: border-box;
 }
-body {
+form {
+  max-width: 300px;
+  margin: 0 auto;
 }
 .card {
   background-color: white;
   border: 1px solid #333;
   border-radius: 0.5rem;
   padding: 0.5rem;
+  max-width: 300px;
+  margin: 0 auto;
+  display: none;
+  &.active {
+    display: block;
+  }
 }
 
 .form-group {
@@ -15,6 +23,12 @@ body {
   flex-direction: column;
   gap: 0.25rem;
   margin: 0 0 0.5rem;
+
+  .step-title {
+    text-align: center;
+    margin: 0 0 1rem 0;
+    font-weight: bold;
+  }
 
   label {
     font-weight: bold;
