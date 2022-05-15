@@ -9,12 +9,34 @@
     <script defer src="scripts.js"></script>
   </head>
   <body>
+    <section class="progress-bar">
+      <div class="step">
+        <p>1</p>
+        <p>Account Details</p>
+      </div>
+      <div class="step">
+        <p>
+          2
+          <span class="connection"></span>
+        </p>
+        <p>Address Details</p>
+      </div>
+
+      <div class="step">
+        <p>
+          3
+          <span class="connection"></span>
+        </p>
+        <p>Personal Details</p>
+      </div>
+    </section>
     <form
       data-multi-step
       autocomplete="off"
       autocomplete="new-password"
       autofill="off"
       autocomplete="false"
+      class="multi-step-form"
     >
       <div data-step="1" class="card">
         <div class="form-group">
